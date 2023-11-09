@@ -1,0 +1,110 @@
+/*******General styles***********/
+
+html{background-color: #BFF5FF;
+scroll-behavior: smooth;}
+
+h1,h2{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+body{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+display: flex;
+flex-direction: column;
+min-height: 100vh;}
+
+main{flex-grow: 1;}
+
+footer{background-color: #000255;
+display: flex;
+font-size: small;
+flex-direction: row;}
+
+footer ul{padding-left: 1em;}
+
+footer li{color: white;
+list-style-type: none;}
+
+.blue_background{background-color: #3081D6;
+padding-top: 0.5em;
+padding-bottom: 0.5em;
+padding-left: 1em;
+padding-right: 1em;
+border-radius: 1em;
+margin-bottom: 1.5em;
+margin-top: 2em;
+margin-left: 1em;
+margin-right: 1em;
+text-align: center;}
+
+.green_background{background-color: #269188;
+padding-top: 0.3em;
+padding-bottom: 0.3em;
+padding-left: 1em;
+padding-right: 1em;
+border-radius: 1em;
+margin-top: 1em;
+margin-bottom: 1em;
+margin-left: 1em;
+margin-right: 1em;
+text-align: center;}
+
+article img{background-color: white;
+border-radius: 1em;
+padding: 1em;
+padding-left: 2em;
+padding-right: 2em;}
+
+section ul{display: flex;
+justify-content: space-evenly;
+padding-left: 1em;
+margin-bottom: 0.3em;
+margin-top: 0.3em;
+list-style-type: none;}
+
+nav li{background-color: white;
+font-size: smaller;
+border-radius: 1em;
+padding: 0.2em;
+margin-left: 0.4em;}
+
+nav li a{text-decoration: none;
+color: black;
+font-weight: 500;}
+
+/*******Top image and text*********/
+
+div{height: 19em; width: 23em;
+align-items: center;
+border-radius: 1em;
+display: flex;
+justify-content: center;
+margin-left: auto; margin-right: auto;}
+
+div h1{color: rgb(255, 255, 255);
+text-align: center;}
+
+/*******background images***********/
+
+.home_background{background-image: url(Assets/home_background.jpg);}
+.waarom_verduurzamen_background{background-image: url(Assets/waarom_verduurzamen_background.jpg);}
+.goed_voorbeeld_background{background-image: url(Assets/goed_voorbeeld_background.jpg);}
+
+.huis_model{display: flex;
+justify-content: center;
+margin-left: auto;
+margin-right: auto;
+margin-top: 0%;
+margin-bottom: 0%;}
+
+.huis_model img{background-color: white;
+border-radius: 1em;
+padding-left: 1em;
+padding-right: 1em;}
+
+map area{display: flex;
+justify-content: center;}
+
+.cool_logo_bro {margin: 0%;}
+
+.list_header{font-size: medium;
+font-weight: 700;}
+
+.list_subheader{list-style-type: circle;
+font-weight: 700;}
